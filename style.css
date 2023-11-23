@@ -30,23 +30,13 @@ body {
 
 /* Specific Element Styles */
 #welcome {
-  font-size: 100px; /* Adjust font size as needed */
+  font-size: 150px; /* Adjust font size as needed */
   margin-bottom: 50px; /* Add some margin for spacing */
 }
 
-code {
-  background-color: #ffffff;
-  border-radius: 0.25em;
-  font-family: 'Lucida Console', 'Courier New', monospace;
-  font-size: 3em;
-  font-weight: normal;
-  letter-spacing: 0;
-  margin-bottom: 30px;
-  padding: 1em 1em;
-  text-indent: 0;
-}
+
 
 #timer {
-  font-size: 50px; /* Adjust font size as needed */
-  margin-top: 75px;
+  font-size: 75px; /* Adjust font size as needed */
+  margin-top: 100px;
 }
