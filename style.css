@@ -20,7 +20,7 @@
 
 /* General Styles */
 body {
-  font-family: 'Abril Fatface', sans-serif, Arial; /* Use your font of choice */
+  font-family: sans-serif, Arial, 'Abril Fatface'; /* Use your font of choice */
   width: 100%;
   height: 100%;
   margin-left: 0px;
@@ -34,12 +34,14 @@ body {
 #welcome {
   font-size: 150px; /* Adjust font size as needed */
   margin-bottom: 0px; /* Add some margin for spacing */
+  background-color: #FFFFFF1C;
+  border-radius: 15px;
 }
-
-
 
 #timer {
   font-size: 75px; /* Adjust font size as needed */
   margin-top: 10%;
   margin-bottom: 0px;
+  background-color: #FFFFFF1C;
+  border-radius: 15px;
 }
