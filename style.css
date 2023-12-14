@@ -20,7 +20,10 @@
 
 /* General Styles */
 body {
+  /*Text*/
   font-family: sans-serif, Arial, 'Abril Fatface'; /* Use your font of choice */
+  color: white;
+  /*General*/
   width: 100%;
   height: 100%;
   margin-left: 0px;
@@ -28,20 +31,30 @@ body {
   background: url('img.gif');
   background-size: cover;
   text-align: center; /* Center all text elements */
+  user-select: none;
+}
+
+/*Readability*/
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
 }
 
 /* Specific Element Styles */
 #welcome {
   font-size: 150px; /* Adjust font size as needed */
   margin-bottom: 0px; /* Add some margin for spacing */
-  background-color: #FFFFFF1C;
-  border-radius: 15px;
 }
 
 #timer {
   font-size: 75px; /* Adjust font size as needed */
   margin-top: 10%;
   margin-bottom: 0px;
-  background-color: #FFFFFF1C;
-  border-radius: 15px;
 }
